@@ -29,14 +29,14 @@ public class DemoMongoDbApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		addCustomer();
+//		addCustomer();
 //		getCustomer();
 //		getAllCustomers();
 //		updateCustomer();
 //		deleteCustomer();
 //		findByEmailIdIsNull();
 //		getCustomersByNameAndEmail();
-//		getAllCustomersOrderedByDob();
+		getAllCustomersOrderedByDob();
 	}
 
 	public void getAllCustomersOrderedByDob() {
